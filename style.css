@@ -52,11 +52,13 @@ img.logo {
     display: block;
     margin: 20px 5px 5px 5px;
     border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
     box-sizing: border-box;
 }
 
 img.logo:hover {
     border: 2px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
     transform: translate(-3px, -3px);
     transition: transform 0.5s;
 }

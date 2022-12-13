@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+
+        img {
+            position: absolute;
+            width: 100vw;
+        }
+
+        div#buttom-camera {
+            cursor: pointer;
+            position: absolute;
+            width: 16.1%;
+            /*234px*/
+            height: 43.0px;
+            border-radius: 12px;
+            left: 6.88%;
+            /*100px*/
+            top: 12px;
+            /*65px*/
+        }
+    </style>
+</head>
+
+<body id="body">
+    <img src="imagens/tela-home.jpg" alt="">
+    <div id="buttom-camera" onclick="funcao()"></div>
+    <script>
+        function funcao() {
+            var body = document.getElementById('body')
+            body.innerHTML = `<div style="width:100vw; height:100vh; background:url('imagens/fundo-madeira.jpg') center top no-repeat fixed; background-size:auto;"><a style="text-decoration:none; font-family:sans-serif; border-radius:5px; padding:4px 10px 4px 10px; position:absolute; top:6px; left:6px; color:black; border:1px solid black; background-color:lightgrey;" href="home.html">Voltar</a></div>`
+        }
+    </script>
+</body>
+
+</html>

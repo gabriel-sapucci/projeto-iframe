@@ -31,6 +31,15 @@ iframe {
     height: 471px;
 }
 
+#circulo-iphone {
+    position: absolute;
+    bottom: 19px;
+    left: 133px;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+}
+
 section#navbar {
     top: 0;
     position: absolute;
